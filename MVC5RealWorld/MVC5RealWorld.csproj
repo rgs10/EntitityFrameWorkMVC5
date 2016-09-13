@@ -192,6 +192,7 @@
       <DependentUpon>DemoModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EntityManager\UserManager.cs" />
+    <Compile Include="Models\ViewModel\UserLoginView.cs" />
     <Compile Include="Models\ViewModel\UserModel.cs" />
     <Compile Include="Models\ViewModel\UserSignUpView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -218,6 +219,7 @@
     <Content Include="scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\Welcome.cshtml" />
     <Content Include="Views\Account\SignUp.cshtml" />
+    <Content Include="Views\Account\LogIn.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
