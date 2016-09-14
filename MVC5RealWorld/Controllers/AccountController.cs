@@ -31,14 +31,12 @@ namespace MVC5RealWorld.Controllers
             return View();
         }
 
-        [AllowAnonymous]
-        public ActionResult LogIn()
+        [AllowAnonymous]public ActionResult LogIn()
         {
             return View();
         }
 
         [HttpPost]
-        [AllowAnonymous]
         public ActionResult LogIn(UserLoginView ULV, string returnUrl)
         {
             if (ModelState.IsValid)
